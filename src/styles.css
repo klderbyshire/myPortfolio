@@ -113,3 +113,22 @@ p {
   display: flex;
   align-items: center;
 }
+
+/* Project Cards */
+.project-card {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.sub-section-alt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
