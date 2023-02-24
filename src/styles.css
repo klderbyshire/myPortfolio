@@ -7,7 +7,6 @@
 section {
   height: 500px;
   background-color: white;
-  border: solid black 1px;
 }
 
 .hero {
@@ -116,9 +115,10 @@ p {
 
 /* Project Cards */
 .project-card {
-  width: 500px;
-  height: 500px;
-  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+  box-shadow: 5px 5px 20px rgb(176, 176, 176);
+  margin: 10px;
 }
 
 .sub-section-alt {
@@ -131,4 +131,20 @@ p {
 .project-container {
   display: flex;
   justify-content: space-around;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  margin: 10px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
 }
